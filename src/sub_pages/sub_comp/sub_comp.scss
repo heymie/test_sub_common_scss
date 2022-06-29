@@ -1,0 +1,25 @@
+.common-add-mp {
+    .add-mp-outer{transition: all ease-in-out .3s;
+      &.active{
+        .add-mp-con{height: 72px;opacity: 1;}
+      }
+      .add-mp-con{display: flex; align-items: center;flex:1;margin: 0px 20px 0px;background: #fff;border-radius: 40px;transition: all ease-in-out .3s;padding-left: 30px;padding-right: 16px;height: 0; opacity: 0; box-sizing: border-box;position: relative;
+        .icon{width: 32px;height: 32px;}
+        .txt{color: #333;font-weight: 400;font-family: PingFangSC-Regular;font-size: 26px;flex: 1;text-align: left;padding-left: 18px;}
+        .iconfont{font-size: 20px;color: #999;}
+        .color-red {
+          font-weight: bold;
+          color: #FE4839;
+        }
+        .triangle-icon{position: absolute;top: -20px; right: 110px;width:0;height: 0;border: 12px solid transparent;border-bottom: 12px solid #fff;}
+        .icon-close {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+    .padding-bottom {
+      padding-bottom: 22px;
+    }
+  }
+  
